@@ -242,6 +242,7 @@ public class Pendulum {
         replicator.init();
         node.init();
 
+        node.start();
         latestMilestoneTracker.start();
         latestSolidMilestoneTracker.start();
         candidateTracker.start();
